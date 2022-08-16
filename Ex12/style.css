@@ -1,0 +1,74 @@
+
+body{
+    background-color: lightgrey;
+}
+
+h1 {
+    margin-left: 70px;
+    }
+    .main-body{
+       margin-left: 26%;
+       
+    }
+    form li {
+    list-style: none;
+    margin-bottom: 10px;
+    }
+    
+    form ul li label{
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color: darkgreen;
+    }
+    
+    form ul li input, select, span {
+    float: left;
+    margin-bottom: 10px;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border:none;
+   
+    }
+    form textarea {
+    float: left;
+    width: 350px;
+    height: 60px;
+    border-radius: 5px;
+    border:none;
+   
+    }
+    .address{
+        height: 80px;
+    }
+    #desc{
+        width: 410px;
+    }
+    [type="submit"] {
+    clear: left;
+    margin: 20px 0 0 230px;
+    font-size:18px
+    }
+    
+    p {
+    margin-left: 70px;
+    font-weight: bold;
+    }
+    .submit{
+        margin-left: 280px;
+        border-radius: 5px;
+    }
+    .submit:hover{
+        background-color: black;
+        color: white;
+    }
+    output{
+        color: red;
+        margin-left: 120px;
+    }
+    

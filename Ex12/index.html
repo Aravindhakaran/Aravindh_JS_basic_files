@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Validation Form:</title>
+</head>
+    <body onload="document.registration.userid.focus();">
+    <h1 class="text-primary mb-4"><center><u>Registration Form</u></center></h1>
+    <form name='registration' class="" onSubmit="return formValidation();">
+        <div class="main-body">
+    <ul>
+    <li><label for="userid">User id:</label></li>
+    <li><input type="text" name="userid" size="50" /></li>
+     <output id="errorid" calss="error" ></output>
+    <li><label for="passid">Password:</label></li>
+    <li><input type="password" name="passid" size="50" /></li>
+    <output id="errorpass" calss="error" ></output>
+    <li><label for="username">Name:</label></li>
+    <li><input type="text" name="username" size="50" /></li>
+    <output id="erroruser" calss="error" ></output>
+    
+    <li><label for="address">Address:</label></li>
+    <li><input type="text" class="address" name="address" size="50"/></li>
+    <output id="erroradd" calss="error" ></output>
+    <li><label for="course">Courses:</label></li>
+    <li><select name="course">
+    <option selected="" value="Default">(Please select a Course)</option>
+    <option value="HTML">HTML</option>
+    <option value="CSS">CSS</option>
+    <option value="BOOTSTRAP">BOOTSTRAP</option>
+    <option value="JAVASCRIPT">JAVASCRIPT</option>
+    <option value="NGULAR">ANGULAR</option>
+    </select></li>
+    <output id="errorcourse" calss="error" ></output>
+    <li><label for="email">Email:</label></li>
+    <li><input type="text" name="email" size="50" /></li>
+    <output id="erroremail" calss="error" ></output>
+    <li><label id="gender">Sex:</label></li>
+    <li><input type="radio" name="msex" class="mx-1" value="Male" /><span>Male</span></li>
+    <li><input type="radio" name="fsex" class="mx-1" value="Female" /><span>Female</span></li>
+    <output id="errorradio" calss="error" ></output>
+    <li><label>Language:</label></li>
+    <li><input type="checkbox" class="mx-1" name="english" value="english" checked /><span> English</span></li>
+    <li><input type="checkbox" class="mx-1" name="tamil" value="tamil" /><span> Tamil</span></li>
+    <li><input type="checkbox" class="mx-1" name="hindi" value="hindi" /><span> Hindi</span></li>
+   
+    <li><input type="submit" class="submit" name="submit" value="Submit" /></li>
+    </ul>
+</div>
+    </form>
+    </body>
+   
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

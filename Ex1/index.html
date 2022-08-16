@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <p>Click the Button:</p>   
+<button onclick="myfunction()">Click me</button><br><br>
+
+<p>Your Input:</p>
+<input type="text" id="myInput" oninput="myfunction1()"><br><br>
+
+<p>Select Your langage:</p>
+<select id="myselect" onchange="myfunction2()">
+<option value="C">C</option>
+<option value="C++">C++</option>
+<option value="Java">Java</option>
+<option value="Javascript">Javascript</option>
+</select><br><br>
+
+<form action="#" method="get">
+<p>Name:</p><br>
+<input type="text" id="myInput2" oninvalid="alert1('u must fill the form first');" name="fname" required><br><br>
+<input type="submit" value="submit">
+</form><br>
+
+<p>Image:</p>
+<img src="image.png" onerror="myfunction4()"><br>
+
+<p>Focus:</p>
+<input type="text"  onfocus="myfunction5(this)"><br>
+
+<p>Keydown:</p>
+<input type="text" id="mydown"  onkeydown="myfun()"><br>
+
+<p>KeyUp</p>
+<input type="text" id="myup" onkeyup="get2()">
+
+ <p>Keypress:</p>
+<input type="text" id="mykey" onkeypress="myfunction8()"> <br>
+
+<p>Load:</p>
+<input type="text" onload="myload"><br>
+
+<p>Reset:</p>
+<form onreset="myreset()">
+    Enter name: <input type="text">
+    <input type="reset">
+</form><br>
+
+<p>Select:</p>
+<input type="text" value="hello Ebrain" onselect="myselect()"><br>
+
+<p>Submit:</p>
+<form onsubmit="mysubmit()">
+ Name: <input type="text">
+ <input type="submit">
+
+</form><br>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

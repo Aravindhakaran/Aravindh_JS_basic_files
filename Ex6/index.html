@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sample Validation form:</title>
+</head>
+<body>  
+
+   <h1>My Contact Form:</h1>
+        <form action="https://google.com" class="form" id="form">
+            <div class="myform">
+                <div class="input-holder">
+                    <input type="text" id="fname" name="fname" placeholder="Full Name" class="form-control" data-name="name">
+                    <span  id="fnameErrorId"></span>
+                </div>
+             
+                <div class="input-holder">
+                    <input type="email" name="email" placeholder="Email" class="form-control">
+                    <span class="err-txt">Please fill in email.</span>
+                </div>
+                <div class="input-holder">
+                    <input type="tel" name="phone" placeholder="Phone" class="form-control">
+                    <span class="err-txt">Please fill in phone number.</span>
+                </div>
+                <!-- <div class="input-holder checkbox">
+                    <p>What are the Laguage you Known?</p><br>
+                    <input type="checkbox" name="checkbox" id="check1" class="form-control" value="Checkbox1">
+                    <label for="check1">Tamil</label>
+                    <br>
+                    <input type="checkbox" name="checkbox" id="check2" class="form-control" value="Checkbox1">
+                    <label for="check1">English</label>
+                    <br>
+                    <input type="checkbox" name="checkbox" id="check3" class="form-control" value="Checkbox2	">
+                    <label for="check2">Malayalam</label>
+                    <span class="err-txt">Please check the option</span>
+                </div> -->
+            <!-- </p>Gender:</p><br>
+                <div class="input-holder radiocheck">
+                    <input type="radio" name="radio" id="radio1" class="form-control" value="radio1">
+                    <label for="radio1">Male</label>
+                    <br>
+                    <input type="radio" name="radio" id="radio2" class="form-control" value="radio2">
+                    <label for="radio2">Female</label>
+                    <span class="err-txt">Please check one option</span>
+                </div>
+                <div class="input-holder">
+                    <select name="select" id="select" class="form-control">
+                        <option value="" disabled="disabled" selected="selected">Select here</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                    <span class="err-txt">Please select one option</span> -->
+                </div>
+           
+            <div class="textarea">
+                <div class="input-holder">
+                    <textarea name="textarea" id="" cols="30" rows="10" placeholder="Address" class="form-control"></textarea>
+                    <span class="err-txt">Please fill in some text</span>
+                </div>
+                <div class="input-holder">
+                    <input type="submit" value="Submit" class="btn-submit">
+                </div>
+            </div>
+        </div>
+        </form>
+
+</body>
+<script src="script.js"></script>
+
+</html>

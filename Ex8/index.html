@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>JS_Simple_Calculator:</title>
+</head>
+
+<body>
+   
+     <div class="row"> 
+        <div class="col-md-4  offset-md-4 bg-secondary p-5 mt-3">
+    <h1 class="text-white mt-2"><u>Calculation</u></h1>
+    <p class="text-white">Number1:</p> <input type="number" id="number1"><br><br>
+    <p class="text-white">Number2:</p> <input type="number" id="number2"><br><br>
+    <input type="button" value="plus"  onclick="return mycalculator1()">
+    <input type="button" value="minus"  onclick="return mycalculator2()"> 
+    <input type="button" value="muliply"  onclick="return mycalculator3()"> 
+    <input type="button" value="divider"  onclick="return mycalculator4()"><br><br>
+    <p class="text-white">The Result is :</p>
+    <span id="result" class="text-white"></span>
+</div> 
+</div> 
+    <script src="script.js"></script>
+
+</body>
+
+</html>
